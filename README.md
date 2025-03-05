@@ -22,3 +22,14 @@ It **toggles each raster layer sequentially** while keeping the aerial basemap o
 To ensure the script runs properly, organize your layers as follows in QGIS:
 
 📂 QGIS Layers Panel ├── Orthophoto (or any aerial basemap) ├── Time-Varying Depths │ ├── DEPTH2D_5m_raster │ ├── DEPTH2D_10m_raster │ ├── DEPTH2D_15m_raster │ ├── DEPTH2D_20m_raster │ ├── DEPTH2D_30m_raster ├── Data Boundaries (Optional)
+
+- **Ensure that the aerial imagery is loaded before running the script.**  
+- **Rasters should be named in ascending order** for correct animation sequencing.  
+
+---
+
+## **⚙️ Installation & Dependencies**
+### **🛠 Required Libraries**
+Ensure you have the following Python libraries installed in QGIS:
+```sh
+pip install pillow
