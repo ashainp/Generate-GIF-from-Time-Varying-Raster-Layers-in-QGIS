@@ -36,6 +36,8 @@ pip install pillow
 
 Or in Python console
 
+---
+
 import pip
 pip.main(['install', 'pillow'])
 
