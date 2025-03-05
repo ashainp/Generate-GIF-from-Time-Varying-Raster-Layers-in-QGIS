@@ -28,19 +28,6 @@ To ensure the script runs properly, organize your layers as follows in QGIS:
 
 ---
 
-## **⚙️ Installation & Dependencies**
-### **🛠 Required Libraries**
-Ensure you have the following Python libraries installed in QGIS:
-```sh
-pip install pillow
-
-Or in Python console
-
----
-
-import pip
-pip.main(['install', 'pillow'])
-
 ## **🖥 User Inputs & Customization**
 Modify these variables in the script to fit your project:
 
@@ -82,5 +69,19 @@ Modify these variables in the script to fit your project:
 🔹 **Animated mapping for presentations**  
 
 ---
+
+
+## **⚙️ Installation & Dependencies**
+### **🛠 Required Libraries**
+Ensure you have the following Python libraries installed in QGIS:
+```sh
+pip install pillow
+
+Or in Python console
+
+---
+
+import pip
+pip.main(['install', 'pillow'])
 
 
